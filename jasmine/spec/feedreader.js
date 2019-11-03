@@ -32,13 +32,13 @@ $(function() {
       //Check that every feed has a valid Url
       it(`Feed ${i + 1} has a Valid URL`, () => {
         expect(feed.url).toBeDefined();
-        expect(feed.length).not.toBe(0);
+        expect(feed.url.length).not.toBe(0);
       });
 
       //check that every feed has a valid name
       it(`Feed ${i + 1} has a Valid Name`, () => {
         expect(feed.name).toBeDefined();
-        expect(feed.name).not.toBe();
+        expect(feed.name.length).not.toBe(0);
       });
     }
   });
@@ -73,7 +73,7 @@ $(function() {
     //Check if we have at least 1 entry
     it('Loaded Multiple Entries', done => {
       //Get all entries
-      let entries = $('.entry');
+      let entries = $('.feed .entry');
       expect(entries.length).not.toBe(0);
       done();
     });
