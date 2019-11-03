@@ -18,7 +18,9 @@ I wrote the following tests as required by the Udacity Project Rubric:
 3. A new test suite named `"The menu"`, with the following tests inside it:
   * A test that ensures the menu element is hidden by default.
   * A test that ensures the menu changes visibility when the menu icon is clicked. This test has two expectations: does the menu display itself when clicked, and does it hide when clicked again?
+
 4. A new test suite named `"Initial Entries"`, with the following test inside it:
   * a test that ensures when the `loadFeed` function is called and completes its work, there is at least a single `.entry` element within the `.feed` container.
+
 5. A new test suite named `"New Feed Selection"`, with the following test inside it:
   * a test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.
